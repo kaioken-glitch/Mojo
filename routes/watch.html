@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mojo</title>
+    <link rel="stylesheet" href="../css/watch.css">
+    <link rel="shortcut icon" href="../assets/images/wand-sparkles-solid (1).svg" type="image/x-icon">
+</head>
+<body>
+    <div class="main">
+        <div class="head">
+            <div class="back">
+                <a href="../index.html">
+                    <i class="fa-solid fa-angle-left"></i>
+                    Back
+                </a>
+            </div>
+
+            <div class="watchTitle">
+                <h3>Some Movie Being Watched</h3>
+            </div>
+        </div>
+
+        <div class="movieWindow">
+            <div id="videoPlayer"></div>
+            <div class="loading-overlay">
+                <i class="fa-solid fa-spinner fa-spin"></i>
+                <p>Loading video...</p>
+            </div>
+            <div class="error-overlay" style="display: none">
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <p></p>
+            </div>
+        </div>
+
+        <div class="controls">
+            <div class="playPause">
+                <i class="fa-solid fa-play"></i>
+            </div>
+            <div class="timeLeft"></div>
+            <div class="progressbar">
+                <div class="progressIndicator"></div>
+            </div>
+            <div class="timeElapsed"></div>
+            <div class="volumeExpand">
+                <i class="fa-solid fa-volume-low"></i>
+                <i class="fa-solid fa-expand"></i>
+            </div>
+        </div>
+    </div>
+
+    <script src="../script/watch.js"></script>
+    <script src="https://kit.fontawesome.com/826c469fe7.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mojo</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="shortcut icon" href="../assets/images/wand-sparkles-solid (1).svg" type="image/x-icon">
+</head>
+<body>
+    <div class="main">
+
+        <div class="both">
+
+            <div class="nav">
+                <div class="logo">
+                    <i class="fa-solid fa-wand-sparkles"></i>
+                    <h1>Mo<span>jo</span></h1>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li>Home</li>
+                        <li class="genre-dropdown">
+                            Genres
+                            <div class="dropdown-content">
+                                <a href="#">Action</a>
+                                <a href="#">Horror</a>
+                                <a href="#">Comedy</a>
+                                <a href="#">Drama</a>
+                                <a href="#">Sci-Fi</a>
+                                <a href="#">Romance</a>
+                            </div>
+                        </li>
+                        <li>History</li>
+                    </ul>
+                </div>
+                <div class="search" onclick="window.location.href='../routes/searchPage.html'">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+        
+
+            <div class="cardDisplay">
+                <div class="left"><i class="fa-solid fa-caret-left"></i></div>
+    
+                <div class="movieCard">
+                    <div class="card">
+                        <div class="title">
+                            <h1>Movie Title: Mystics</h1>
+                            <div class="info">
+                                <div class="age">
+                                    <p>18+</p>
+                                </div>
+                                <div class="sound">
+                                    <p>Dobly atmos</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="more">
+                            <div class="playBtn">
+                                <i class="fa-solid fa-play"></i>
+                                <p>Play</p>
+                            </div>
+                            <div class="movieDsp">
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="right"><i class="fa-solid fa-caret-right"></i></div>
+            </div>
+        </div>
+
+        <div class="genreLists">
+            <div class="genreType">
+                <h2>Horror</h2>
+                <div class="movies">
+                    <div class="genre-left"><i class="fa-solid fa-caret-left"></i></div>
+                    
+                    <div class="movies-container">
+                        <div class="genreMovies">
+                            <div class="imageCont">
+                                <img src="" alt="" id="movieImage">
+                            </div>
+                            <p id="movieTitle">Annabel</p>
+                        </div>
+                    </div>
+            
+                    <div class="genre-right"><i class="fa-solid fa-caret-right"></i></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="module" src="./script/index.js"></script>
+    <script src="https://kit.fontawesome.com/826c469fe7.js" crossorigin="anonymous"></script>
+</body>
+</html>
