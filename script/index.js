@@ -1,4 +1,4 @@
-const API_KEY = 'AIzaSyDwQjoBuA7vPlwJ4emt7plplfpXSDoEhVs';
+const API_KEY = 'AIzaSyD2iGspJH8SvAjDKEYmpYTTcIHFfLhr2tw';
 let currentMovieIndex = 0;
 let featuredMovies = [];
 
